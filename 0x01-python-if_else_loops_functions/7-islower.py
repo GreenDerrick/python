@@ -4,3 +4,6 @@ def islower(c):
         if chr(i) == c:
             result = True
             return result
+        else:
+            result = False
+            return result
