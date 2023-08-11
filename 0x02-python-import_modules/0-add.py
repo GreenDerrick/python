@@ -1,2 +1,1 @@
-import add_0
-add_0.add()
+__import__("0-add")
