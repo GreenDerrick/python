@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
     count = len(my_list)
-    if idx < 0 or idx > count:
-        print("None")
+    if idx < 0 or idx > count - 1:
+        return None
     else:
-        print("{}".format(my_list[idx]))
+        return (my_list[idx])
