@@ -3,5 +3,5 @@ def print_list_integer(my_list=[]):
     count = 0
     i = len(my_list)
     while count < i:
-        print(f"{my_list[count]}")
+        print(f"{}".format(my_list[count]))
         count += 1
