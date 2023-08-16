@@ -1,5 +1,3 @@
 #!/usr/bin/python3
-def add():
-    a = 1
-    b = 2
-    return (f"{a} + {b} = {a + b}")
+def add(a, b):
+    return a + b
