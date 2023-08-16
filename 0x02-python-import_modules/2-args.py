@@ -9,7 +9,7 @@ if __name__ == '__main__':
     if argc == 0:
         print("{} arguments.".format(argc))
     elif argc == 1:
-        print("{} arguments".format(argc))
+        print("{} arguments.".format(argc))
     elif argc > 0:
         print("{} arguments:".format(argc))
         while i <= argc:
