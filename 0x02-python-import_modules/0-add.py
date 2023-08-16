@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import add_0
-sum = add_0.add()
-print("{}".format(sum))
+from add_0 import add
+print("{}".format(add()))
